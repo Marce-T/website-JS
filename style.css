@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerWeb{
+border-style: outset;
+}
+
+.containerWeb a{
+    text-decoration: none; 
+    list-style: none;  
+    color: #000; 
+    padding-right: 5%;
+    padding-left: 5%;
+
+}
+
+.containerWeb{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.counter{
+    display: flex;
+    justify-content: center;
+    padding-top: 15%;  
+}
+.counterDisplay {
+    padding-right: 5px;
+    margin: 5px;
+}
+
+.add{
+    padding-right: 5px;
+    margin: 5px;
+
+}
+
+.rest{
+    padding-left: 5px;
+    margin: 5px;
+}
+
